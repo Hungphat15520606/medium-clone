@@ -3,7 +3,7 @@ import Header from '../layout/header/Header'
 //import AlertBar from '../AlertBar'
 import Footer from '../layout/footer/Footer';
 import { Route } from "react-router-dom";
-import Home from '../pages/home/Home';
+import Home from '../../containers/home/home';
 import Post from '../pages/post/Post';
 import Author from '../pages/author/Author'
 function App() {

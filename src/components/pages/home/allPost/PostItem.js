@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import image5 from '../../../assets/img/demopic/5.jpg'
+import image5 from '../../../../assets/img/demopic/5.jpg'
 
-export default class PostAllPost extends Component {
+export default class PostItem extends Component {
   render() {
-    return (
+    return ( 
         <div className="card">
-        <a href="post.html">
+         <a href="post.html">
           <img className="img-fluid" src={image5} alt="##" />
         </a>
         <div className="card-block">
@@ -14,7 +14,7 @@ export default class PostAllPost extends Component {
           <div className="metafooter">
             <div className="wrapfooter">
               <span className="meta-footer-thumb">
-                <a href="author.html"><img className="author-thumb" src={require('../../../assets/img/demopic/6.jpg')} alt="Sal" /></a>
+                <a href="author.html"><img className="author-thumb" src={require('../../../../assets/img/demopic/6.jpg')} alt="Sal" /></a>
               </span>
               <span className="author-meta">
                 <span className="post-name"><a href="author.html">Sal</a></span><br />
@@ -25,4 +25,7 @@ export default class PostAllPost extends Component {
           </div>
         </div>
       </div>
-    )}}
+     
+    )
+  }
+}
